@@ -1,5 +1,5 @@
 ## 一、JEST简介
-![QQ截图20201110095549](README.assets/QQ截图20201110095549.png)
+![](./README.assets/jest.png)
 
 Jest是Facebook开源的一套JavaScript测试框架， 它集成了断言、JSDom、覆盖率报告等开发者所需要的所有测试工具。
 
