@@ -1,5 +1,4 @@
 ## 一、JEST简介
-![](./README.assets/jest.png)
 
 Jest是Facebook开源的一套JavaScript测试框架， 它集成了断言、JSDom、覆盖率报告等开发者所需要的所有测试工具。
 
@@ -17,6 +16,7 @@ yarn global add jest
 ```
 
 ## 2.2 hello world(jest)
+编写以下两个js文件，控制台输入命令`jest --no-cache --verbose`(全局安装)，或者`npx jest --no-cache --verbose`（项目依赖安装），jest会搜索项目下所有测试脚本并执行输出测试结果。
 ```javascript
 // hello.js
 module.exports = function(){
@@ -301,7 +301,7 @@ it('测试用户组件', async() => {
 [github地址](http://github.com/calcyu/jest-study-demo)
 demo中还包含`express+restful`接口的测试用例，不想用`postman`测试接口的同学，可以用jest来代替。
 
-> 顺手点个小爱心，以示鼓励。
+> 顺手点个小爱心，以示鼓励。😘😍🥰
 
 
 
